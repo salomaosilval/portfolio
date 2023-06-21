@@ -1,0 +1,33 @@
+.projectContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-dark);
+
+  .projectMockup {
+    width: 30rem;
+  }
+
+  .projectTitle {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .projectLink {
+    color: var(--text-dark);
+    text-decoration: none;
+  }
+
+  .githubIcon {
+    margin-top: 3rem;
+    font-size: 3rem;
+    transition: all 0.5s ease;
+    cursor: pointer;
+
+    &:hover {
+      transform: scale(1.5);
+    }
+  }
+}
